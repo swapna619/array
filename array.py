@@ -14,9 +14,14 @@ scores = [eval(x) for x in scores]
 # Calculate values
 total = sum(scores)
 average = total / len(scores)
+maximum = max(scores)
+minimum = min(scores)
+
 
 
 # Print results
 print("Scores =", scores)
 print("Sum =", total)
 print("Average =", average)
+print("Maximum =", maximum)
+print("Minimum =", minimum)
